@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const projectsData = {
     title: "Dự án của tôi",
     icon: "fas fa-code-branch",
@@ -66,6 +68,20 @@ export const projectsData = {
               'Bulma'
             ],
             github: 'https://github.com/binhantt/nuxt-user-page'
-          }          
+          },  
+          {
+            title: 'tietcuoi',
+                description: 'Website quảng cáo đám cưới xây dựng bằng Nuxt 3 với cấu trúc tối giản và giao diện modular. Hiển thị hero đẹp, lịch trình & địa điểm sự kiện, album ảnh/câu chuyện đôi uyên ương, gói dịch vụ & nhà cung cấp, form RSVP/đặt chỗ, và phần liên hệ/đặt lịch tư vấn. Hỗ trợ auto-import component, tối ưu SEO (meta, Open Graph, JSON-LD), tối ưu ảnh và performance, đồng thời chuẩn bị sẵn cho triển khai production (SSR/SSG, CDN, caching). Thiết kế responsive, dễ tuỳ biến cho nhiều sự kiện và hỗ trợ chia sẻ mạng xã hội.',
+            image: 'https://ibb.co/2LYBgf2', 
+            technologies: [
+              'Nuxt 3',
+              'Vue 3',
+              'Vite',
+              'Pinia',
+              'Antd' , 
+              'TS', 
+            ],
+            github: 'https://github.com/binhantt/doanchuyennga'
+          }        
     ]
 }
